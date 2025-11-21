@@ -1,0 +1,88 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f4ebe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #6b4423;
+    margin-bottom: 15px;
+}
+
+.game-container {
+    background: #fff8f0;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(120, 82, 54, 0.2);
+    width: 350px;
+    text-align: center;
+    border: 2px solid #d9c2a3;
+}
+
+#level-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #6b4423;
+    margin-bottom: 10px;
+}
+
+#question-box {
+    background: #e8d4c0;
+    padding: 10px;
+    border-radius: 10px;
+    color: #5a3e26;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.timer {
+    background: #c9a98c;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.letter {
+    background: #f7e7d4;
+    border: 2px solid #c6a88a;
+    padding: 10px 0;
+    border-radius: 8px;
+    cursor: grab;
+    font-size: 18px;
+    font-weight: 600;
+    color: #6b4423;
+}
+
+.buttons button {
+    padding: 6px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5px;
+    background: #6b4423;
+    color: white;
+}
+
+#message {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 18px;
+}
